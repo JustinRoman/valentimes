@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    width: fit-content;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.buttons {
+    position: relative;
+    height: 60px;
+    width: 500px
+}
+
+button {
+    padding: 10px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+    margin-right: 10px;
+}
+
+#noBtn {
+    background-color: #adb5bd;
+    color: white;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff4d6d;
+}
