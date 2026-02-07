@@ -19,6 +19,7 @@ body {
     text-align: center;
     width: fit-content;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    position: relative;
 }
 
 h1 {
@@ -48,10 +49,21 @@ button {
 #noBtn {
     background-color: #adb5bd;
     color: white;
+    position: absolute;
 }
 
 #message {
     margin-top: 20px;
     font-size: 18px;
     color: #ff4d6d;
+}
+
+.reaction-img {
+    position: absolute;
+    max-width: 140px;
+    max-height: 140px;
+    border-radius: 12px;
+    display: none;
+    z-index: 1;
+    pointer-events: none;
 }
